@@ -1,0 +1,26 @@
+   0 mkdir -p /tmp/hw3/newfile/iana
+   1 touch /tmp/hw3/newfile/iana/file1.txt
+   2 date > /tmp/hw3/newfile/iana/file1.txt
+   3 echo "Homework3" >> /tmp/hw3/newfile/iana/file1.txt
+   4 ls -l /
+   5 df -h
+   6 df -h | grep -o 47%
+   7 df -h | grep -o 47% >> /tmp/hw3/newfile/iana/file1.txt
+   8 history | tail-5
+   9 history | tail -5
+  10 history | tail -5 >> /tmp/hw3/newfile/iana/file1.txt
+  11 /proc/cpuinfo
+  12 tree /proc/cpuinfo
+  13 ls -l /proc/cpuinfo
+  14 cat /proc/cpuinfo
+  15 nano /proc/cpuinfo
+  16 ps /proc/cpuinfo
+  17 cat /proc/cpuinfo
+  18 cat /proc/cpuinfo | head -2 | tail -1
+  19 cat /proc/cpuimfo |head -2 | tail -1 >> /tmp/hw3/newfile/iana/file1.txt
+  20 cat /proc/cpuinfo | head -2 | tail -1
+  21 cat /proc/cpuinfo | head -2 | tail -1 >> /tmp/hw3/newfile/iana/file.txt
+  22 ps -ef | tail +2 | wc -l
+  23 history > history_01.02
+  24 export_file history_01.02.txt
+  25 history > history_01.02.txt
